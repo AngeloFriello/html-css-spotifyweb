@@ -33,7 +33,9 @@ a{
     background-color: black;
 	min-width: 90px;
     padding: 20px;
-
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 }
 
 .main__app{
@@ -250,6 +252,7 @@ a{
     display: none;
     flex-direction: column;
     margin:  auto 0;
+    flex-grow: 1;
 
 }
 .playlist h4{
@@ -276,13 +279,34 @@ a{
 
 .download-profile{
     display: none;
+    flex-direction: column;
+}
+.download-profile__arrow{
+    border-bottom:1px solid lightgray ;
+    padding-bottom: 10px;
+}
+.download-profile a{
+    padding: 0px 10px;
 }
 
+.download-profile h2{
+    padding-top: 10px;
+    color: #5A5A5A;
+}
 
+.profile{
+    display: flex;
+    align-items: center;
+}
 
-
-
-
+.profile_logo{
+    width: 30px;
+    aspect-ratio: 1;
+    background-color: #5A5A5A;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
 
 
 
@@ -311,6 +335,9 @@ a{
         display: flex;
     }
     .playlist{
+        display: flex;
+    }
+    .download-profile{
         display: flex;
     }
 
