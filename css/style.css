@@ -47,6 +47,7 @@ a{
 
 
 /* TOOLBAR LEFT */
+
 .img-preview{
     height: 20px;
     aspect-ratio: 1;
@@ -56,6 +57,9 @@ a{
     height: 20px;
     align-items: center;
     width: 20%;
+    display: flex;
+    flex-shrink: 1;
+    min-width: 150px;
 }
 
 .toolbar{
@@ -104,14 +108,15 @@ a{
 .player{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     align-items: center;
+    min
 }
 
 .player-top{
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 50%;
     padding-bottom:10px ;
 }
 
@@ -119,7 +124,7 @@ a{
     padding-top: 10px;
     display: flex;
     justify-content: center ;
-    width: 40%;
+    width: 100%;
 }
 
 .time-bar_gray{
@@ -143,9 +148,12 @@ a{
 
 .volume{
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
-    width: 20%;
+    width: 10%;
+    flex-shrink: 1;
+    min-width: 150px;
 }
 
 .time-bar-big{
@@ -153,7 +161,8 @@ a{
 }
 
 .time-bar-small{
-    width: 50%;
+    display: flex;
+    flex-grow: 1;
 }
 
 
