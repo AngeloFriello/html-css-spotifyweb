@@ -32,6 +32,7 @@ a{
 .left-side{
     background-color: black;
 	min-width: 90px;
+    padding: 20px;
 
 }
 
@@ -44,6 +45,49 @@ a{
 .toolbar{
     background-color: #282828;
 }
+
+/* utility */
+
+.flex{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    direction: column;
+    display: flex;
+}
+
+.white{
+    color: white;
+}
+
+.justfy-center{
+    justify-content: center;
+    display: flex;
+}
+
+.aligne-center{
+    display: flex;
+    align-items: center;
+}
+
+.justfy-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.light-gray{
+    color: #5A5A5A;
+    font-weight: 700;
+}
+
+
 
 /* TOOLBAR */
 
@@ -96,7 +140,7 @@ a{
     color:gray;
 }
 
-.toolbar i{
+ i{
     color: white;
 }
 
@@ -169,12 +213,65 @@ a{
 }
 
 
+/* NAVIGATORE */
+.icon-dimension{
+    display: flex;
+}
+
+.navigator__option{
+    padding-left: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.navigator__option i{
+    font-size: 25px;
+    color: #5A5A5A;
+    
+}
+
+.name-option{
+    display: none;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.logo-big{
+    display: none;
+    padding-bottom: 20px;
+}
+
+.logo-small{
+    width: 40px;;
+}
+
+.playlist h4{
+    display: none;
+    color: white;
+    padding-top: 20px;
+
+}
+
 
 
 @media (min-width: 639px){
 	.left-side{
 		min-width: 230px;
 	}
+    .logo-small{
+        display: none;
+    }
+    .logo-big{
+        display: flex;
+    }
+    .name-option{
+        display: flex;
+    }
+    .playlist h4{
+        display: flex;
+    }
 }
 
 @media (min-width: 879px){
@@ -205,5 +302,6 @@ a{
 
 
 @media (min-width: 1100px){
-    .fa-heart
+   
+    
 }
