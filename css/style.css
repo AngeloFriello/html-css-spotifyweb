@@ -21,17 +21,13 @@ a{
     text-decoration: none;
 }
 
-.app{
-    display: flex;
-}
-
 .navigator{
     background-color: black;
     height: 90vh;
     width: 230px;
 }
 
-.body-app{
+.main__app{
     display: flex;
     flex-grow: 1;
     background-color: rgb(1, 0, 56);

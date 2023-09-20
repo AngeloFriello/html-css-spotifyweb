@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet"
+		  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+		  crossorigin="anonymous"
+		  referrerpolicy="no-referrer"/>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/bce4c6f505.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <meta charset="UTF-8">
@@ -8,62 +14,85 @@
     <title>Document</title>
 </head>
 <body>
-    <main class="app">
-        <div class="leftside">
-            <nav class="navigator">
-                
-            </nav>
-        </div>
-        <div class="body-app">
-            <div class="">
-               
-            </div>
-        </div>
-    </main>
-    <div>
-        <div>
-            <div class="toolbar">
-                <div class="music-preview">
-                    <div class="music-preview-img'">
-                        <img src="./img/sinister.jpeg" alt="" class="img-preview">
-                    </div>
-                    <div class="music-preview-name">
-                        <p class="name-song">Sinister</p>
-                        <p class="name-artist">Brano name</p>
-                    </div>
-                    <div class="like-folder">
-                        <i class="fa-regular fa-heart"></i><br>
-                        <i class="fa-regular fa-folder"></i>
-                    </div>
-                </div>
-                <div class="player">
-                    <div class="player-top">
-                        <i class="fa-solid fa-share"></i>
-                        <i class="fa-solid fa-forward fa-rotate-180"></i>
-                        <i class="fa-regular fa-circle-play"></i>
-                        <i class="fa-solid fa-forward"></i>
-                        <i class="fa-solid fa-rotate-right"></i>
-                    </div>
-                    <div class="player-bot">
-                        <p>0:25</p>
-                        <div class="time-bar_gray time-bar-big">
-                            <div class="time-bar_light-gray"></div>
-                        </div>
-                        <p>4:35</p>
-                    </div>
-                </div>
-                <div class="volume">
-                    <div>
-                        <i class="fa-solid fa-bars"></i>
-                        <i class="fa-solid fa-tv"></i>
-                        <i class="fa-solid fa-volume-high"></i>
-                    </div>
-                    <div class="time-bar_gray time-bar-small">
-                        <div class="time-bar_light-gray"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="app">
+		<main class="main__app">
+			<div class="leftside">
+				<nav class="navigator">
+					
+				</nav>
+			</div>
+			<div class="body-app">
+				<div class="">
+				   
+				</div>
+			</div>
+		</main>
+		<div>
+			<div>
+				<div class="toolbar">
+					<div class="music-preview">
+						<div class="music-preview-img'">
+							<img src="./img/sinister.jpeg" alt="" class="img-preview">
+						</div>
+						<div class="music-preview-name">
+							<h4 class="name-song">Sinister</h4>
+							<p class="name-artist">Brano name</p>
+						</div>
+						<ul class="like-folder">
+							<li>
+								<i class="fa-regular fa-heart"></i><br>
+							</li>
+							<li>
+								<i class="fa-regular fa-folder"></i>
+							</li>
+						</ul>
+					</div>
+					<div class="player">
+						<ul class="player-top">
+							<li>
+								<i class="fa-solid fa-share"></i>
+							</li>
+							<li>
+								<i class="fa-solid fa-forward fa-rotate-180"></i>
+							</li>
+							<li>
+								<i class="fa-regular fa-circle-play"></i>
+							</li>
+							<li>
+								<i class="fa-solid fa-forward"></i>
+							</li>
+							<li>
+								<i class="fa-solid fa-rotate-right"></i>
+							</li>	
+						</ul>
+						<div class="player-bot">
+							<div>0:25</div>
+							<div class="time-bar_gray time-bar-big">
+								<div class="time-bar_light-gray"></div>
+							</div>
+							<div>4:35</div>
+						</div>
+					</div>
+					<div class="volume">
+						<ul>
+							<li>
+								<i class="fa-solid fa-bars"></i>
+							</li>
+							<li>
+								<i class="fa-solid fa-tv"></i>
+							</li>
+							<li>
+								<i class="fa-solid fa-volume-high"></i>
+							</li>	
+						</ul>
+						<div class="time-bar_gray time-bar-small">
+							<div class="time-bar_light-gray"></div>
+							<div class="progress-handler"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
