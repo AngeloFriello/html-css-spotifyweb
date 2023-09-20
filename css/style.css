@@ -246,13 +246,54 @@ a{
 .logo-small{
     width: 40px;;
 }
-
-.playlist h4{
+.playlist{
     display: none;
-    color: white;
-    padding-top: 20px;
+    flex-direction: column;
+    margin:  auto 0;
 
 }
+.playlist h4{
+    color: white;
+    padding: 20px 0px;
+
+}
+
+.add-playlist{
+    padding-left: 10px;
+}
+
+.playlist p{
+    padding: 10px 0px;
+}
+
+.playlist li{
+    align-items: center;
+}
+.fa-square-plus{
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.download-profile{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -269,9 +310,10 @@ a{
     .name-option{
         display: flex;
     }
-    .playlist h4{
+    .playlist{
         display: flex;
     }
+
 }
 
 @media (min-width: 879px){
