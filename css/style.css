@@ -202,7 +202,6 @@ a{
     flex-direction: column;
     width: 50%;
     align-items: center;
-    min
 }
 
 .player-top{
@@ -339,9 +338,7 @@ a{
 .download-profile{
     flex-direction: column;
 }
-.download-profile__arrow{
- 
-}
+
 .download-profile a{
     padding: 0px 10px;
 }
@@ -417,12 +414,14 @@ main{
 
 .container{
     width: 100%;
+    display: flex;
 }
 
 .row{
     width: 100%;
     display: flex;
-    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .col-12{
@@ -430,17 +429,24 @@ main{
 }
 
 .col-2{
-    flex-basis: (100% / 6);
-    padding: 10px;
+    flex-basis: calc(100% / 6);
+    max-width: 100%;
 }
 
 .album-cover{
-   
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
 }
 
 .body-app__albums{
     height: 100%
 }
+
+
+
+
+
 
 
 
@@ -505,10 +511,7 @@ main{
 
 
 @media (min-width: 1559px){
-    .row{
-       
 
-    }
 }
 
 
